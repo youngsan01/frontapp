@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+* { 
+    font-family: "Noto Sans KR", sans-serif; 
+    box-sizing: border-box; 
+    outline: none; 
+    color: #000;
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    margin : 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+ul, ol, li, dl, dt, dd {
+    margin : 0;
+    padding : 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+/* 헤더 영역 s */
+header .site-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 15px;
+}
+
+header .logo img {
+    height: 34px;
+}
+
+header .site-top i{
+    font-size: 2.1rem;
+}
+
+header .site-top .left a{
+    margin-right: 10px;
+}
+
+nav {
+    font-size: 1.539rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e7;
+    height: 50px;
+    line-height: 49px;
+    position: relative;
+}
+
+nav .back {
+    height: 28px;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    cursor: pointer;
+}
+
+/* 헤더 영역 e */
+
+/* 본문 영역 s */
+main {
+    background: #ededed;
+}
+
+main .box {
+    padding: 30px 15px 40px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-bottom: 1px solid #dfe1e5;
+}
+
+/* 본문 영역 e */
